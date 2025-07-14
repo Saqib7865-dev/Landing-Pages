@@ -1,14 +1,14 @@
 const Navbar = () => {
   return (
     <nav>
-      <ul className="flex space-x-10 items-center">
+      <ul className="hidden lg:flex space-x-10 items-center">
         <li>
           <a href="/" className="text-[#054C73] font-semibold text-sm">
             Home
           </a>
         </li>
         <li>
-          <a href="/services" className="text-[#054C73] font-semibold text-sm">
+          <a href="services" className="text-[#054C73] font-semibold text-sm">
             Services
           </a>
         </li>
