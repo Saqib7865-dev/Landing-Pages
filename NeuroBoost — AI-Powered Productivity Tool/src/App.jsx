@@ -6,7 +6,7 @@ import HowItWorks from "./components/HowItWorks";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-200 overflow-x-hidden">
+    <div className="min-h-screen overflow-x-hidden">
       <Header />
       <HeroSection />
       <Features />
