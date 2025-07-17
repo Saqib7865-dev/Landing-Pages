@@ -15,7 +15,7 @@ const Header = () => {
       <Navbar />
       <div className="hamburger lg:hidden flex items-center justify-center">
         <RxHamburgerMenu
-          className="text-base inline-block"
+          className="font-bold text-base inline-block"
           onClick={() => setShowResponsiveNavbar(true)}
         />
       </div>
