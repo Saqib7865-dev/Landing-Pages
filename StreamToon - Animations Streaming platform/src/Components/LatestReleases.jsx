@@ -1,10 +1,13 @@
 const LatestReleases = () => {
   return (
-    <section id="latest" className="py-20 px-10 bg-gray-50 w-full">
-      <h2 className="text-indigo-600 text-4xl uppercase font-semibold font-mono">
+    <section
+      id="latest"
+      className="py-10 md:py-20 px-5 md:px-10 bg-gray-50 w-full"
+    >
+      <h2 className="text-indigo-600 text-xl md:text-4xl uppercase font-semibold font-mono">
         Latest Releases
       </h2>
-      <div className="releases-container grid grid-cols-3 gap-4">
+      <div className="releases-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-4">
         <div className="release-1 py-5">
           <div className="img relative group">
             <img
@@ -25,7 +28,7 @@ const LatestReleases = () => {
                 IMDB: 9/10
               </p>
             </div>
-            <p className="font-serif">
+            <p className="font-serif text-justify">
               Simba is a young lion prince destined to be king, but after
               tragedy strikes, he must find the courage to reclaim his rightful
               place.
@@ -52,7 +55,7 @@ const LatestReleases = () => {
                 IMDB: 8.5/10
               </p>
             </div>
-            <p className="font-serif">
+            <p className="font-serif text-justify">
               An unlikely panda becomes a kung fu hero, proving that greatness
               comes from within.
             </p>
@@ -78,7 +81,7 @@ const LatestReleases = () => {
                 IMDB: 9.5/10
               </p>
             </div>
-            <p className="font-serif">
+            <p className="font-serif text-justify">
               A heartwarming adventure where toys come to life and discover the
               true meaning of friendship.
             </p>
@@ -104,7 +107,7 @@ const LatestReleases = () => {
                 IMDB: 9/10
               </p>
             </div>
-            <p className="font-serif">
+            <p className="text-justify font-serif">
               Simba is a young lion prince destined to be king, but after
               tragedy strikes, he must find the courage to reclaim his rightful
               place.
@@ -131,7 +134,7 @@ const LatestReleases = () => {
                 IMDB: 8.5/10
               </p>
             </div>
-            <p className="font-serif">
+            <p className="text-justify font-serif">
               An unlikely panda becomes a kung fu hero, proving that greatness
               comes from within.
             </p>
@@ -157,7 +160,7 @@ const LatestReleases = () => {
                 IMDB: 9.5/10
               </p>
             </div>
-            <p className="font-serif">
+            <p className="text-justify font-serif">
               A heartwarming adventure where toys come to life and discover the
               true meaning of friendship.
             </p>

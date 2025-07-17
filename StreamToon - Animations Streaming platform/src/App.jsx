@@ -9,16 +9,6 @@ import PricingCards from "./Components/PricingCards";
 import ThisMonth from "./Components/ThisMonth";
 
 function App() {
-  // Header
-  // HeroSection
-  // About the Series
-  // Key Features
-  // Screenshots / Episode Preview
-  // Pricing Section
-  // Testimonials / Reviews
-  // Call to Action
-  // Footer
-
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />

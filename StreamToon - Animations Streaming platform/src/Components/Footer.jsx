@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="w-full bg-gradient-to-r from-indigo-600 to-amber-600 px-6 md:px-24">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-8 md:py-16">
         <div className="section-1">
-          <h4 className="text-white font-mono text-4xl font-bold tracking-wide uppercase">
+          <h4 className="text-white font-mono text-2xl md:text-4xl font-bold tracking-wide uppercase">
             StreamToon
           </h4>
           <p className="text-slate-300 pt-3 text-justify font-poppins tracking-normal w-full md:max-w-80 text-sm md:text-base lg:text-lg font-serif">
@@ -78,7 +78,7 @@ const Footer = () => {
           <h4 className="font-inter text-white font-bold tracking-wide text-2xl font-mono">
             Newsletter Signup
           </h4>
-          <div className="pt-4 flex items-center flex-col md:inline-block">
+          <div className="pt-2 md:pt-4 flex items-center flex-col md:inline-block">
             <input
               type="email"
               placeholder="you@example.com"
@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom-row text-white pb-4 flex items-center justify-around">
-        <div className="flex gap-x-6 justify-center md:justify-start">
+        <div className="flex gap-x-3 md:gap-x-6 justify-center md:justify-start">
           <a
             href="https://github.com/"
             target="_blank"
